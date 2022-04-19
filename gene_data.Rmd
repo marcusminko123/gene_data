@@ -28,6 +28,8 @@ gene %>%
           theme(axis.text.x=element_blank()) +
           labs(title = "Gene Mutations by Tissue Type by Strength of Evidence", 
                y = "Frequency")
+ 
+ #This reveal some interesting differences. In the definitive evidence category, there are very few blood-related genes but disproportionately significant amount of lung-related genes. This is inversely reflected in the "no evidence" category.
 
 ```
 
